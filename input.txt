@@ -1,0 +1,20 @@
+and ebx, [ebx + esp + 0x54]
+mov qword ptr [rcx*4 + 0x8], 0x34
+stc
+clc
+std
+cld
+add dx, bp
+adc ecx, edi
+add dx, 0x7891
+add edi, [ebx]
+adc edi, [edi + 0x51]
+adc [edi + 0x5126], eax
+adc [rdi + 0x5126], ax
+add edx, [ebp]
+add [eax + ecx], esi
+add [rax + rcx], esi
+sub edx, [ebp + ecx]
+or [ecx*4], ebx
+cmp r8, rdx
+cmp r8w, bx
